@@ -47,7 +47,7 @@ void free_person(void* data);
  * @param file file pointer
  * @return pointer to the new Person or NULL on problems or eof
  **/
-void* fscanf_person(FILE *);
+void* fscanf_person(FILE *file);
 
 
 #endif // DEMO_PERSON_H
